@@ -20,7 +20,6 @@ def main():
             else:
                 print("This is not a URL, Please type a URL or press enter to stop")
 
-#print headers
 def print_headers(response):
     headers = response.headers
     print("\nHeaders:")
